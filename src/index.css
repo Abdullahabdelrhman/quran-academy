@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+/* يمكنك إضافة خط القاهرة هنا مباشرة */
+@theme {
+  --font-family-cairo: "Cairo", sans-serif;
+  --color-primary: #059669;
+}
+
+body {
+  font-family: var(--font-family-cairo);
+  direction: rtl;
+}
